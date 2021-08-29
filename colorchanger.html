@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            height: 300px;
+            background-color: darkslategray;
+            flex-wrap: nowrap;
+        }
+        .box{
+            background-color: cadetblue;
+            margin: 30px;
+            height: 160px;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .box:hover{
+    background-color: teal;
+       } 
+       .container{
+           height: 800px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <h1>The Color Changer</h1>
+    <div class="container">
+        <div class="flex-container">
+         <div class="box" id="box1">
+          Hover Over Me! <br> I Will Change My Color   </div>
+         <div class="box" id="box2">
+            Hover Over Me! <br> I Will Change My Color 
+         </div>
+         <div class="box" id="box3">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+         <div class="box" id="box4">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+         <div class="box" id="box5">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+         <div class="box" id="box6">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+        </div>
+    </div>
+</body>
+</html>
